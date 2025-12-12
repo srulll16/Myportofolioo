@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home fade">
+    <h2>Halo, Saya <span>M.Nasrul Syarifudin</span></h2>
+    <p>Web Developer | UI/UX Designer | Freelancer</p>
+    <a href="#projects" class="btn">Lihat Project</a>
+</section>
+
+<section id="about" class="about reveal">
+    <h2>Tentang Saya</h2>
+    <p>
+        Saya adalah seorang web developer yang berfokus pada pembuatan website modern dan responsif.
+    </p>
+</section>
+
+<section id="projects" class="projects reveal">
+    <h2>Project Saya</h2>
+    <div class="project-container">
+        <div class="project-card zoom">
+            <h3>Project 1</h3>
+            <p>Project ini hanya untuk kisah cinta dan tentang sesuatu yang romantis saja.</p>
+        </div>
+        <div class="project-card zoom">
+            <h3>Project 2</h3>
+            <p>Ini adalah Project lirik lagu/musik yang saya suka dan ini hanya untuk bersenang-senang</p>
+        </div>
+        <div class="project-card zoom">
+            <h3>Project 3</h3>
+            <p>Ini adalah Project untuk seseorang yang sedang ulang tahun.</p>
+             <div class="project-card">
+    <img src="img/project1.jpg" alt="Project 1" class="project-img">
+    <h3>Project 1</h3>
+       <img src="img/profile.jpg" alt="Foto Profil">
+</div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact reveal">
+    <h2>Kontak Saya</h2>
+    <form>
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan..." required></textarea>
+        <button class="btn" type="submit">Kirim</button>
+    </form>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>
